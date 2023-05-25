@@ -1,4 +1,4 @@
-main {
+body {
   background-color: #E5E5B4;
 }
 
@@ -14,13 +14,32 @@ p {
   font-size: 15px;
 }
 
-.clock {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+li {
+  list-style: none;
+}
+
+.contraste {
+  background-color: #38535E;
 }
 
 .tarjeta {
+  border: 2px solid #D9857B;
+  margin: 20px;
+  padding: 20px;
   background-color: #D4BF65;
+}
+
+.mapa {
+  width: 120px;
+  height: 120px;
+}
+
+.logo-s {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-l {
+  width: 70px;
+  height: 70px;
 }
