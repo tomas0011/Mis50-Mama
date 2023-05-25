@@ -1,31 +1,26 @@
-.App {
-  text-align: center;
+main {
+  background-color: #E5E5B4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.clock {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.heart {
-  color: #ff0000;
-}
-
-.small {
-  font-size: 0.75rem;
+.tarjeta {
+  background-color: #D4BF65;
 }
