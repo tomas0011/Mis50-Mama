@@ -1,5 +1,6 @@
 body {
   background-color: #E5E5B4;
+  border: 3px solid #38535E;
 }
 
 h1 {
@@ -22,9 +23,14 @@ li {
   background-color: #38535E;
 }
 
+.extremo {
+  height: 50px;
+}
+
 .tarjeta {
+  border-radius: 2px;
   border: 2px solid #D9857B;
-  margin: 20px;
+  margin: 100px 20px 100px 20px;
   padding: 20px;
   background-color: #D4BF65;
 }
