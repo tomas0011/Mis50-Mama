@@ -1,6 +1,12 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./font/DancingScript-VariableFont_wght.ttf');
+}
+
 body {
   background-color: #E5E5B4;
   border: 3px solid #38535E;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
