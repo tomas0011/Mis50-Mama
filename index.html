@@ -11,14 +11,19 @@
   <title>Mis 50 | Andre</title>
 </head>
 <body>
-  <nav class="contraste extremo"></nav>
+  <nav class="contraste extremo d-flex align-items-center flex-column">
+    <img class="logo-xl" src="./img/florNavbar.png" alt="florNavbar"/>
+    <img class="logo-xl" src="./img/lineasNavbar.png" alt="lineasNavbar"/>
+  </nav>
   <main class="p-2">
-    <div class="tarjeta">
-      <h1 class="text-center">Mis 50 Andrea</h1>
+    <div class="tarjeta d-flex flex-column align-items-center">
+      <h1 class="text-center">Mis 50</h1>
+      <h1 class="text-center">... Andrea ...</h1>
+      <img class="logo-l" src="./img/florTitulo.png" alt="florTitulo"/>
     </div>
     <div class="clock d-flex flex-column justify-content-center align-items-center">
       <img class="mx-3 logo-l" src="./img/reloj.png" alt="reloj"/>
-      <h2 id="temporizador">* Dias * Horas * Minutos * Segundos</h2>
+      <h2 id="temporizador">* Dias * Horas * Minutos</h2>
     </div>
     <div class="tarjeta d-flex flex-column justify-content-center align-items-center">
       <div class="d-flex align-items-center justify-content-center">
@@ -29,7 +34,14 @@
     </div>
     <div class="tarjeta d-flex justify-content-center align-items-center">
       <img class="mx-2 logo-s" src="./img/trompeta.png" alt="trompeta"/>
-      Es una fiesta sorpresa, por lo que procuren llegar a horario o antes
+      <div>
+        <p>
+          Recordar que es una fiesta sorpresa y es importante que cuando llegue estemos todos.
+        </p>
+        <p>
+          Los esperamos a horario. 
+        </p>
+      </div>
     </div>
     <div class="tarjeta d-flex justify-content-between align-items-center">
       <ul class="d-flex flex-column justify-content-center m-0 p-0">
@@ -51,9 +63,12 @@
     <div class="tarjeta d-flex justify-content-center align-items-center">
       <img class="mx-2 logo-s" src="./img/whatsapp.png" alt="whatsapp"/>
       <h2>Confirmar asistencia</h2>
+      <img class="logo-l borde-div" src="./img/florCard.png" alt="florCard"/>
     </div>
   </main>
-  <footer class="contraste extremo"></footer>
+  <footer class="contraste extremo d-flex justify-content-center">
+    <img class="logo-xl" src="./img/florFooter.png" alt="florFooter"/>
+  </footer>
 
   <script src="./index.js"></script>
 </body>
