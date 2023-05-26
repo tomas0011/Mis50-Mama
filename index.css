@@ -10,12 +10,12 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bolder;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 5vw;
 }
 
 p {
@@ -31,17 +31,17 @@ li {
 }
 
 .extremo {
-  height: 90px;
+  height: 100px;
 }
 
 .tarjeta {
   border-radius: 2px;
-  border: 2px solid #D9857B;
+  border: 2px solid #B29B36;
   margin: 100px 20px 100px 20px;
   padding: 20px;
   background-color: #D4BF65;
 }
-
+ 
 .mapa {
   width: 120px;
   height: 120px;
@@ -60,6 +60,11 @@ li {
 .logo-xl {
   width: 100px;
   height: 100px;
+}
+
+.logo-xxl {
+  width: 200px;
+  height: 200px;
 }
 
 .borde-div {
