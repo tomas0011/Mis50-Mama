@@ -1,6 +1,6 @@
 let temporizador = document.querySelector("#temporizador");
 
-const fechaDeCumple = new Date('2023-06-11T01:00:00.000Z')
+const fechaDeCumple = new Date('2023-06-11T00:00:00.000Z')
 
 setInterval(() => {
   const fechaActual = new Date();
